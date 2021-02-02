@@ -1,0 +1,22 @@
+{
+  "name": "cryptobroker",
+  "version": "1.0.0",
+  "description": "cryptobroker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learnbyseven/cryptobroker.git"
+  },
+  "author": "giriraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learnbyseven/cryptobroker/issues"
+  },
+  "homepage": "https://github.com/learnbyseven/cryptobroker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
