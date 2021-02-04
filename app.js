@@ -8,5 +8,9 @@ app.listen(80);
 const homeRoute = require('./routes/home');
 app.use(homeRoute);
 //Serving static contents 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
+//Routes api
+const apiRoute = require('./routes/api');
+app.use(apiRoute);
+
 
